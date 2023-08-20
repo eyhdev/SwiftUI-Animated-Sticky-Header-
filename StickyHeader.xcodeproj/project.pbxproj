@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D43AFC302A921A9600FD4CAA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43AFC2F2A921A9600FD4CAA /* Home.swift */; };
 		D4EC2B052A92148C00AF4DB0 /* StickyHeaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC2B042A92148C00AF4DB0 /* StickyHeaderApp.swift */; };
 		D4EC2B072A92148C00AF4DB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC2B062A92148C00AF4DB0 /* ContentView.swift */; };
 		D4EC2B092A92148D00AF4DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EC2B082A92148D00AF4DB0 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D43AFC2F2A921A9600FD4CAA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		D4EC2B012A92148C00AF4DB0 /* StickyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EC2B042A92148C00AF4DB0 /* StickyHeaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderApp.swift; sourceTree = "<group>"; };
 		D4EC2B062A92148C00AF4DB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D43AFC2E2A921A8F00FD4CAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D43AFC2F2A921A9600FD4CAA /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D4EC2AF82A92148C00AF4DB0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		D4EC2B032A92148C00AF4DB0 /* StickyHeader */ = {
 			isa = PBXGroup;
 			children = (
+				D43AFC2E2A921A8F00FD4CAA /* View */,
 				D4EC2B042A92148C00AF4DB0 /* StickyHeaderApp.swift */,
 				D4EC2B062A92148C00AF4DB0 /* ContentView.swift */,
 				D4EC2B082A92148D00AF4DB0 /* Assets.xcassets */,
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EC2B072A92148C00AF4DB0 /* ContentView.swift in Sources */,
+				D43AFC302A921A9600FD4CAA /* Home.swift in Sources */,
 				D4EC2B052A92148C00AF4DB0 /* StickyHeaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
